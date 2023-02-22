@@ -3,7 +3,9 @@
     padding: 0;
     margin: 0;
     box-sizing:border-box;
+    
 }
+
 
 
 /*--inicio galeria--*/
@@ -88,4 +90,83 @@
 
 /*--fin galeria--*/
 
+/*--footer--*/
+footer li{
 
+    list-style: none
+
+ }
+ footer a:link, footer a:visited,  footer a:hover, footer a:active
+ {
+     color: #000000;
+     text-decoration: none;
+ }
+
+ #sublogofooter{
+    height: 2rem;
+ }
+/*--fin footer--*/
+
+/*--nav--*/
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+ /*------------css navbar LeandroAvilaTapia------------*/
+nav{
+  /* height: 78px; */
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 1px;
+  font-size: 20px;
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 0.90);
+  z-index: 1000;
+}
+.divGeneralNav{
+  width: 75vw;
+  height: 78px;
+}
+@media (min-width: 992px) {
+  nav img {
+    border-right: 1.5px solid rgba(150, 150, 150, 0.575);
+    justify-content:flex-start;
+  }
+}
+@media (max-width: 992px) {
+.divGeneralNav{
+    width: 100vw;
+    height: auto;
+  }
+nav img{
+  margin: 22px 0;
+}  
+}
+main{
+  background-color: black;
+}
+/*------------------------------------------------------*/
+/*--fin nav--*/
+
+
+/*este cuadro existe solo para ocupar el espacio del carrousel*/
+.cuadro{
+    height: 15vh;
+    width: 100vw;
+    background-color: white;
+}
+
+.cuadrob{
+    height: 80vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.bannerfoot{
+    height: 65vh;
+    object-fit: cover;
+}
+
+@media only screen and (max-width:1030px){
+    .bannerfoot{
+        height: 40vh;
+    }
+}
