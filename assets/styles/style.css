@@ -149,7 +149,7 @@ main{
 
 /*este cuadro existe solo para ocupar el espacio del carrousel*/
 .cuadro{
-    height: 15vh;
+    height: 78px;
     width: 100vw;
     background-color: white;
 }
